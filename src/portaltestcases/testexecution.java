@@ -39,7 +39,7 @@ public class testexecution{
 	driver.findElement(By.xpath("/html/body/div[1]/div/div/form/button")).click();
 	Thread.sleep(3000);
 	
-//	Home section
+//	Home section - Merge 1
 	driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]")).click(); //Leave
 	Thread.sleep(3000);
 	driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]")).click(); //Permission

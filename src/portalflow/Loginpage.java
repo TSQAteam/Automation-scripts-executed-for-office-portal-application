@@ -15,8 +15,8 @@ import portaltestcases.testbase;
 	// Create constructor for all class 
 	
 	public Loginpage (WebDriver driver) { 
-    this.driver=driver;
-    PageFactory.initElements(driver, this); 
+    this.driver=driver; 
+    PageFactory.initElements(driver, this);  
 
 	}
 	
@@ -37,7 +37,7 @@ import portaltestcases.testbase;
 	username.sendKeys("bhuvanesh@versatile-soft.com");
  	return loginpagetest;
 		
-	}
+	} 
 	
 	public Loginpage enterpassword() {
 		loginpagetest = new Loginpage (driver);

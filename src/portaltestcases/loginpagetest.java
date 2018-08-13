@@ -10,4 +10,4 @@ public class loginpagetest extends testbase{
 	public void user () throws InterruptedException {
 		loginpagetest.verify_login();
 	 }
-}
+} 

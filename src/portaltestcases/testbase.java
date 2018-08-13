@@ -21,11 +21,12 @@ public String browsername="firefox";
 
 @BeforeClass
 public void setup() {	
-switch(browsername)
+switch(browsername)  
 	 {
-	case "chrome":
+	case "Chrome":
 		System.setProperty("webdriver.chrome.driver", "G://Bhuvanesh/Eclipseauto/driver/Chrome/chromedriver.exe");
 	    driver = new ChromeDriver();
+	    driver.manage().window().maximize();
 	    System.out.println("chrome browser is launched");
 	   break; 
 	 case "firefox":

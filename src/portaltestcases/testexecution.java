@@ -160,7 +160,7 @@ public class testexecution{
 	
 	
 	else
-	{
+	{ 
 		String xp="//button[@title='Male']";
 		WebElement gender3 = driver.findElement(By.xpath(xp));
 		Actions acions=new Actions(driver);

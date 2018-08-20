@@ -36,7 +36,7 @@ public class Homepage extends testbase {
 	
 	@FindBy(id="same_as")
 	WebElement check;
-	
+	 
 	@FindBy(xpath=("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]"))
 	WebElement submenuview;
 	 	
